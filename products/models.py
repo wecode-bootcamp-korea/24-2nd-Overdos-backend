@@ -37,6 +37,7 @@ class CustomerReview(TimeStampModel):
 class Food(models.Model):
     name       = models.CharField(max_length=40)
     daily_dose = models.CharField(max_length=40)
+    url        = models.URLField(max_length=1000, default='')
     product    = models.ManyToManyField(Product, through='ProductFood')
 
     class Meta:
