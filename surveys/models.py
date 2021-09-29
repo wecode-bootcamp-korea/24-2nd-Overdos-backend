@@ -42,4 +42,4 @@ class SurveyInfo_Symptom(models.Model):
     symptom    = models.ForeignKey(Symptom, on_delete=models.CASCADE)
 
     class Meta:
-        db_table='surveyInfo_symptoms'
+        db_table='surveyinfo_symptoms'
