@@ -1,8 +1,9 @@
+from core.models import TimeStampModel
 from users.models    import User
 from products.models import Product
 from django.db       import models
 
-class SurveyInfo(models.Model):
+class SurveyInfo(TimeStampModel):
     GENDER_CHOICES = (
         ('male','남자'),
         ('female','여자')
@@ -30,7 +31,7 @@ class Symptom(models.Model):
         db_table='symptoms'
     
 class Product_Symptom(models.Model):
-    Product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
     symptom = models.ForeignKey(Symptom, on_delete=models.CASCADE)
 
     class Meta:
