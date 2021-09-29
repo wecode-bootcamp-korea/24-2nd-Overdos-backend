@@ -4,6 +4,7 @@ from django.db       import models
 
 class Cart(models.Model):
     quantity = models.IntegerField()
+    checkbox = models.BooleanField(default=True)
     user     = models.ForeignKey(User, on_delete=models.CASCADE)
     product  = models.ForeignKey(Product, on_delete=models.CASCADE)
 
