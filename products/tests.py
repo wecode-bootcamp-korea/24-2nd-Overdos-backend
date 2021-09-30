@@ -19,11 +19,11 @@ class ProductListTest(TestCase):
         Image.objects.bulk_create(
             [Image(
                 id = 1,
-                url = 'https://img.pilly.kr/product/v20200519/vitaminb/tablet.png?v=v202109141041',
+                image_url = 'https://img.pilly.kr/product/v20200519/vitaminb/tablet.png?v=v202109141041',
                 product_id = 1
             ), Image(
                 id = 2,
-                url = 'https://img.pilly.kr/product/v20200519/vitaminb/tablet.png?v=v202109141041',
+                image_url = 'https://img.pilly.kr/product/v20200519/vitaminb/tablet.png?v=v202109141041',
                 product_id = 1
             )]
         )

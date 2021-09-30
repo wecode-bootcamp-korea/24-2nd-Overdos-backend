@@ -78,10 +78,14 @@ class SymptomView(View):
             user = request.user
             data = json.loads(request.body)
             
-            SurveyInfo_Symptom.objects.create(
-                surveyinfo_id = SurveyInfo.objects.filter(user_id=user).last().id,
-                symptom_id = data['symptom_id']
-            )
+            print(data['symptom_id'])
+            symptoms = data['symptom_id']
+            
+            for symptom in symptoms:
+                SurveyInfo_Symptom.objects.create(
+                    surveyinfo_id = SurveyInfo.objects.filter(user_id=user).last().id,
+                    symptom_id = symptom
+                )
             return JsonResponse({"message" : "SUCCESS"}, status=200)
         except KeyError:
             return JsonResponse({"message" : "KEY_ERROR"}, status=400)
@@ -91,9 +95,8 @@ class SurveyResultView(View):
     def get(self, request):
         try:
             user = request.user
-            symptoms = request.GET.getlist('symptom_id')
-            user_id = SurveyInfo.objects.filter(user_id=user).last().id
-            products = Product.objects.filter(symptom__id__in=symptoms, symptom__surveyinfo_symptom__surveyinfo_id=user_id)
+            survey_user = SurveyInfo.objects.filter(user_id=user).last().id
+            products = Product.objects.filter(symptom__surveyinfo_symptom__surveyinfo_id=survey_user)
 
             if not products:
                 return JsonResponse({"message" : "PRODUCT NOT FOUND"}, status=400)
@@ -117,3 +120,55 @@ class SurveyResultView(View):
             return JsonResponse({"message" : "KEY ERROR"}, status=400)
         except AttributeError:
             return JsonResponse({"message" : "DATA NOT FOUND"}, status=400)
+
+class UserSurveyListView(View):
+    @user_auth
+    def get(self, request):
+        user = request.user
+
+        surveys = SurveyInfo.objects.filter(user_id=user)
+        
+        if not surveys:
+            return JsonResponse({"Message" : "SURVEY IS EMPTY"}, status=200)
+
+        result =[{
+            "id"           : survey.id,
+            "created_at"   : survey.created_at,
+            "product_name" : [product.name for product in Product.objects.filter(symptom__surveyinfo__id=survey.id)]
+        }for survey in surveys]
+
+        return JsonResponse({"Result" : result}, status=200)
+
+class UserSurveyResultView(View):
+    @user_auth
+    def get(self, request):
+        try:
+            user = request.user
+            survey = request.GET.get('survey-id')
+            survey_user = SurveyInfo.objects.get(user_id=user, id=survey).id
+            products = Product.objects.filter(symptom__surveyinfo_symptom__surveyinfo_id=survey_user)
+
+            if not products:
+                return JsonResponse({"message" : "PRODUCT NOT FOUND"}, status=400)
+
+            result = [{
+                'product_name' : product.name,
+                'summary'      : [summary.name for summary in Summary.objects.filter(product_id=product.id)],
+                'image'        : product.image_set.first().image_url,
+                'food'         : [{
+                    'name'       : food.name,
+                    'url'        : food.food_url,
+                    'daily_dose' : food.daily_dose,
+                    'feature'    : [{
+                        'name' : feature.name
+                    }for feature in food.feature_set.all()]
+                } for food in product.food_set.all()]
+            }for product in products]
+
+            return JsonResponse({"Result" : result}, status=200)
+        except KeyError:
+            return JsonResponse({"message" : "KEY ERROR"}, status=400)
+        except AttributeError:
+            return JsonResponse({"message" : "DATA NOT FOUND"}, status=400)
+        except SurveyInfo.DoesNotExist:
+            return JsonResponse({"message" : "WORNG SURVEY"}, status=400)
