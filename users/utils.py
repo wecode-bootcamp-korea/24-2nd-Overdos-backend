@@ -17,8 +17,9 @@ def user_auth(func):
             user_id = payload['id']
             
             user = User.objects.get(id = user_id)
+            
             request.user = user.id
-        
+            
         except jwt.exceptions.DecodeError:
             return JsonResponse({'message' : 'INVALID_TOKEN'}, status = 403)            
              
