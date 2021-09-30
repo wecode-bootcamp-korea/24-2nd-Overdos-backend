@@ -16,7 +16,7 @@ class ProductView(View):
                 'name'     : product.name,
                 'sub_name' : product.sub_name,
                 'price'    : product.price,
-                'image'    : product.image_set.first().url,
+                'image'    : product.image_set.first().image_url,
                 'summary'  : [summary.name for summary in product.summary_set.all()]
             }for product in products]
 
@@ -30,15 +30,16 @@ class ProductDetailView(View):
             product_id = request.GET.get('id')
             product    = Product.objects.get(id=product_id)
             
-            result = [{
+            result = {
                 'id'              : product.id,
                 'name'            : product.name,
                 'sub_name'        : product.sub_name,
                 'price'           : product.price,
                 'description'     : product.description,
                 'sub_description' : product.sub_description,
-                'image'           : product.image_set.last().url
-            }]
+                'image'           : product.image_set.first().image_url,
+                'background_image': product.image_set.last().image_url
+            }
             return JsonResponse({"Result" : result}, status=200)
         except Product.DoesNotExist:
             return JsonResponse({"message" : "PRODUCT_NOT_FOUND"}, status=400)

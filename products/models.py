@@ -14,7 +14,7 @@ class Product(TimeStampModel):
 
 class Image(models.Model):
     image_url     = models.URLField(max_length=1000)
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    product       = models.ForeignKey(Product, on_delete=models.CASCADE)
 
     class Meta:
         db_table='images'
@@ -28,8 +28,8 @@ class Summary(models.Model):
 
 class CustomerReview(TimeStampModel):
     review_image_url = models.URLField(max_length=1000)
-    review    = models.TextField()
-    user      = models.ForeignKey(User, on_delete=models.CASCADE)
+    review           = models.TextField()
+    user             = models.ForeignKey(User, on_delete=models.CASCADE)
 
     class Meta:
         db_table='customerreviews'
@@ -37,7 +37,7 @@ class CustomerReview(TimeStampModel):
 class Food(models.Model):
     name       = models.CharField(max_length=40)
     daily_dose = models.CharField(max_length=40)
-    food_url        = models.URLField(max_length=1000, default='')
+    food_url   = models.URLField(max_length=1000, default='')
     product    = models.ManyToManyField(Product, through='ProductFood')
 
     class Meta:
@@ -45,7 +45,7 @@ class Food(models.Model):
 
 class ProductFood(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    food   = models.ForeignKey(Food, on_delete=models.CASCADE)
+    food    = models.ForeignKey(Food, on_delete=models.CASCADE)
 
     class Meta:
         db_table='product_foods'
