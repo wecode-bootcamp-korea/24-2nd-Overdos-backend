@@ -187,7 +187,9 @@ class UserLoginTest(TestCase):
         self.assertEqual(response.json(),
                         {
                             'message' : 'SUCCESS',
-                            'ACCESS_TOKEN' : access_token
+                            'ACCESS_TOKEN' : access_token,
+                            'username' : user.name,
+                            'user_id' : user.id
                         } 
                     )
     
