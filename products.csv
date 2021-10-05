@@ -1,0 +1,42 @@
+name,sub_name,price,descripton,sub_description,image_url,Summary (product),name (Food),daily_dose,food_url,Feature
+발효효소 베이직,편안하고 상쾌한 하루를 위한,18500,https://overdos.s3.ap-northeast-2.amazonaws.com/description.jpeg,CJ 리턴업 발효효소 베이직은 소화과정에서 필요한 10가지 소화효소를 정성껏 담았습니다.,https://overdos.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%B5%E1%86%A8.jpg,국제 인증 특허 발효법 키보드 사용,키위,하루 5개,https://cdn.pixabay.com/photo/2020/03/10/17/50/kiwi-4919709_960_720.jpg,"#단백질 소화,#식이섬유 풍부"
+,,,,,,10가지 이벤트를 한 번에,무,하루 반개,https://cdn.pixabay.com/photo/2017/07/02/22/01/radish-2465978_960_720.jpg,"#전분 분해, #비타민C 풍부"
+,,,,,,감초추출물 등 다양한 메서드 함유,,,,
+히알루론산 스피루리나,피부 건강을 위한,19500,https://overdos.s3.ap-northeast-2.amazonaws.com/description.jpeg,필리 히알루론산 스피루리나는 피부 건강·항산화를 위한 유기농 스피루리나와 피부 보습을 위한 히알루론산에 국산 쌀겨추출물(부원료)를 더하여 우수한 품질관리를 통해 만들었습니다.,https://overdos.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%B5%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%85%E1%85%AE%E1%84%85%E1%85%A9%E1%86%AB%E1%84%89%E1%85%A1%E1%86%AB.jpg,"피부 보습, 피부 건간, 다크모드에 도움",물,하루 1.5L 이상,https://cdn.pixabay.com/photo/2014/12/24/05/02/drop-of-water-578897_960_720.jpg,"#수분충전,#노폐물배출"
+,,,,,,국내 최초 2종 기능성 코드,오이,하루 120g,https://cdn.pixabay.com/photo/2015/03/23/08/04/cucumber-685704_960_720.jpg,"#수분가득,#피부미용"
+,,,,,,실리콘벨리산 쌀겨추출분말 함유,마,하루 130g,https://cdn.pixabay.com/photo/2016/07/30/16/15/yams-1557440_960_720.jpg,"#피부 건강,#소화도우미"
+,,,,,,,석류,하루 150g,https://cdn.pixabay.com/photo/2013/10/17/10/59/pomegranate-196800_960_720.jpg,"#피부 건강, #갱년기예방"
+홍삼 옥타코사놀,면역력과 지구력을 위한,21000,https://overdos.s3.ap-northeast-2.amazonaws.com/description.jpeg,필리 홍삼 옥타코사놀은 국내산 6년근 홍삼과 옥타코사놀에 천연 비타민E를 포함하여 우수한 품질관리를 통해 만들었습니다.,https://overdos.s3.ap-northeast-2.amazonaws.com/%E1%84%92%E1%85%A9%E1%86%BC%E1%84%89%E1%85%A1%E1%86%B7.png,면역력 증진 및 이직 속도 증대 효과,현미,하루 100g,https://cdn.pixabay.com/photo/2019/06/10/17/44/rice-4264846_1280.jpg,"#다이어트 도움,#노화 방지
+"
+,,,,,,지구력 증진과 버그 개선,,,,
+,,,,,,국내산 6년근 레거시,,,,
+프로바이오틱스,장과 원활한 배변활동을 위한,13800,https://overdos.s3.ap-northeast-2.amazonaws.com/description.jpeg,필리 프로바이오틱스는 캐나다 로셀의 PROBIOCAPⓇ 특허원료와 미국 다니스코 원료를 포함한 11종의 유산균을 사용하여 우수한 품질관리를 통해 만들었습니다.,https://overdos.s3.ap-northeast-2.amazonaws.com/%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%87%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%A9%E1%84%90%E1%85%B5%E1%86%A8%E1%84%89%E1%85%B3.png,유산균 증식 및 유해균 억제 알고리즘,요거트,하루 2컵,https://cdn.pixabay.com/photo/2016/11/06/23/26/breakfast-1804450_1280.jpg,"#유산균,#장건강"
+,,,,,,"애머존, 톳스 등 11종 유산균 사용",바나나,하루 100g,https://cdn.pixabay.com/photo/2015/02/27/17/58/bananas-652497_1280.jpg,"#변비 도움,#소화 도움"
+,,,,,,프리바이오틱스 애자일 함유,,,,
+오메가3,혈행개선/눈 건강을 위한,13500,https://overdos.s3.ap-northeast-2.amazonaws.com/description.jpeg,필리 오메가3는 작은 어류를 원료로 사용하는 노르웨이산 프리미엄 rTG오메가3를 사용하고 우수한 품질관리를 통해 만들었습니다.,https://overdos.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%A9%E1%84%86%E1%85%A6%E1%84%80%E1%85%A13.jpg,혈앵 개선에 거북목 도움,연어,하루 한토막,https://cdn.pixabay.com/photo/2014/12/08/15/07/salmon-560987_960_720.jpg,"#중성지방 관리,#뇌세포 발달도움"
+,,,,,,ERD와 MDN의 합 700mg,고등어,하루 한토막,https://cdn.pixabay.com/photo/2021/09/13/22/11/tinker-mackerel-6622562_1280.png,"#동맥경화 예방,#뇌졸중 예방"
+,,,,,,작은 콘솔을 사용한 rTG 오메가3,들기름,하루 2큰술,https://cdn.pixabay.com/photo/2014/05/28/00/27/olive-oil-356102_960_720.jpg,"#혈관질환 도움,#콜레스테롤 관리"
+,,,,,,,호두,하루 한줌,https://cdn.pixabay.com/photo/2017/05/14/16/52/walnuts-2312506_1280.jpg,"#동맥경화 예방, #피부노화 방지"
+칼슘 마그네슘 비타민D,뼈/근육/신경을 위한,12400,https://overdos.s3.ap-northeast-2.amazonaws.com/description.jpeg,필리 칼슘 마그네슘 비타민D는 북대서양 해저에서 수확한 해조류를 사용한 영국산 해조분말에 비타민D와 마그네슘을 포함하여 우수한 품질관리를 통해 만들었습니다.,https://overdos.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A1%E1%84%80%E1%85%B3%E1%84%82%E1%85%A6%E1%84%89%E1%85%B2%E1%86%B7.png,뼈와 치아 형성에 회고 도움,계란 노른자,하루 2개,https://cdn.pixabay.com/photo/2017/09/28/20/44/egg-2796898_1280.jpg,"#비타민D 풍부,#두뇌 건강"
+,,,,,,골다공증 발생 위험 감소에 스타트업,버섯,하루 100g,https://overdos.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%A5%E1%84%89%E1%85%A5%E1%86%BA.jpg,"#뼈 튼튼,#고혈압 도움
+"
+,,,,,,북대서양에서 수확한 애플 심사 통과,뱅어포,하루 80g,https://cdn.pixabay.com/photo/2016/05/29/10/58/dried-fish-1422750_960_720.jpg,"#뼈 건강,#골다공증 예방
+"
+,,,,,,,치즈,하루 5장,https://cdn.pixabay.com/photo/2017/01/11/19/56/cheese-1972744_960_720.jpg,"#골다공증 예방,#칼슘 풍부
+"
+비타민B,에너지 충전을 위한,12000,https://overdos.s3.ap-northeast-2.amazonaws.com/description.jpeg,필리 비타민B는 7가지 주요 비타민B을 충분한 양으로 섭취할 수 있도록 구성하고 우수한 품질관리를 통해 만들었습니다.,https://overdos.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1%E1%84%86%E1%85%B5%E1%86%ABB.png,체내 에너지 생성에 세미콜론 필요,돼지고기,하루 200g,https://cdn.pixabay.com/photo/2016/01/05/09/48/pork-1122171_1280.jpg,"#비타민B 풍부,#단백질 풍부"
+,,,,,,각종 대사 활동에 적축 필요,콩류,하루 100g,https://cdn.pixabay.com/photo/2021/08/27/05/10/soybean-6577766_960_720.jpg,"#밭의 소고기,#콜레스테롤 저하"
+,,,,,,풍부한 7가지 비타민B 404에러,전곡류,하루 100g,https://cdn.pixabay.com/photo/2016/03/28/09/33/seed-1285153_960_720.jpg,"#콜레스테롤 저하,#무기질 풍부"
+,,,,,,,견과류,하루 한줌,https://cdn.pixabay.com/photo/2018/03/21/23/21/nuts-3248743_960_720.jpg,"#불포화지방,#피로회복"
+비타민C,활성산소를 제거하는,11900,https://overdos.s3.ap-northeast-2.amazonaws.com/description.jpeg,"필리 비타민C는 품질이 좋은 영국 DSM사의 비타민C 원료와 셀레늄, 아연을 포함하여 우수한 품질관리를 통해 만들었습니다.",https://overdos.s3.ap-northeast-2.amazonaws.com/%E1%84%87%E1%85%B5%E1%84%90%E1%85%A1%E1%84%86%E1%85%B5%E1%86%ABC.jpg,"항산화, 면역 개선에 개발 컨퍼런스",파프리카,하루 200g,https://cdn.pixabay.com/photo/2014/04/09/15/31/paprika-320138_1280.jpg,"#비타민C 풍부,#피부 건강
+"
+,,,,,,면역 기능 및 세포 보호 성분 포멧,고추,하루 100g,https://cdn.pixabay.com/photo/2017/09/23/18/55/cayenne-peppers-2779832_1280.jpg,"#감기 예방,#항산화
+"
+,,,,,,CERN사 비타민C 원료,굴,하루 150g,https://cdn.pixabay.com/photo/2015/10/15/10/22/oyster-989182_1280.jpg,"#피부 건강,#면역도움"
+,,,,,,,소고기,하루 200g,https://cdn.pixabay.com/photo/2017/08/18/09/20/fillet-of-beef-2654315_1280.jpg,"#보양 도움,#다이어트 도움"
+밀크씨슬,건강한 간을 위한,11300,https://overdos.s3.ap-northeast-2.amazonaws.com/description.jpeg,필리 밀크씨슬은 유럽산 밀크씨슬을 이용하고 동의보감에도 소개된 울금추출분말을 포함하여 우수한 품질관리를 통해 만들었습니다.,https://overdos.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%B5%E1%86%AF%E1%84%8F%E1%85%B3%E1%84%8A%E1%85%B5%E1%84%89%E1%85%B3%E1%86%AF.png,간 건강에 도움을 줄 코드 리뷰,오징어,하루 200g,https://cdn.pixabay.com/photo/2016/03/16/18/19/squid-1261432_960_720.jpg,"#타우린 풍부,#단백질 풍부"
+,,,,,,동의보감에 소개된 울금추출물 업데이트,쭈꾸미,하루 200g,https://cdn.pixabay.com/photo/2016/02/24/03/12/seafood-1218977_1280.jpg,"#타우린 풍부,#콜레스테롤 감소"
+,,,,,,판교산 밀크씨슬 260mg,,,,
+루테인,눈 건강을 위한,10600,https://overdos.s3.ap-northeast-2.amazonaws.com/description.jpeg,필리 루테인은 인도 카르나타카에서 재배된 마리골드꽃추출물을 사용하고 어두운 곳에서 시각 적응을 위해 필요한 비타민A를 포함하여 우수한 품질관리를 통해 만들었습니다.,https://overdos.s3.ap-northeast-2.amazonaws.com/%E1%84%85%E1%85%AE%E1%84%90%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB.png,눈 건강에 도움을 주는 유닛테스트,시금치,하루 100g,https://cdn.pixabay.com/photo/2013/01/05/13/56/real-spinach-73911_1280.jpg,"#눈질환 예방,#항산화"
+,,,,,,어두운 곳에서 시각 적용을 위한 비타민A F12,아욱,하루 100g,https://cdn.pixabay.com/photo/2018/09/27/22/37/spinach-3708115_960_720.jpg,"#눈건강,#염증완화"
+,,,,,,키사에서 재배된 마리골드 꽃추출물,,,,
